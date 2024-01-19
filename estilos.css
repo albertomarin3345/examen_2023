@@ -1,0 +1,85 @@
+.body{
+    margin: 0em;
+}
+
+.texto{
+    font-family: 'Genos', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.cover {
+    border: blue 4px solid;
+    padding-top: 5px;
+    text-align: center;
+    font-family: system-ui;
+    font-size: medium;
+    height: 200px;
+    background-color: rgb(0, 255, 213);
+    color: rgb(0, 0, 0);
+}
+
+.civer{
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgb(250, 7, 7);
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75% !important;
+    height: 750% !important;
+  }
+
+.caver {
+    text-align: center;
+    font-family: serif;
+    font-size: large;
+    margin: 30px 30px 40px;
+}
+
+.circle {
+    background: rgb(4, 241, 190);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation-name: derecha;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.responsive-iframe{
+    align-content: center;
+    position: relative;
+    padding-top: 56.25;
+}
+
+.footer {
+    background: #a4a2a2;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.imagen {
+    width: 100px;
+    height: 100px;
+}
+
+
+@keyframes derecha {
+   0%{transform: translateX(-10vw);}
+   50%{transform: translateX(100vw);}
+   100%{transform: translateX(-10vw);}
+}
