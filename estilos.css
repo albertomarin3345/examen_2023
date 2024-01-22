@@ -2,6 +2,12 @@
     margin: 0em;
 }
 
+.zoom-in-out-box {
+    animation: zoom-in-zoom-out 2s;
+    animation-iteration-count: 3;
+}
+
+
 .texto{
     font-family: 'Genos', sans-serif;
     font-size: 15px;
@@ -76,6 +82,19 @@
     width: 100px;
     height: 100px;
 }
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.1, 1.1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+}
+
 
 
 @keyframes derecha {
